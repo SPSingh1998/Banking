@@ -56,18 +56,6 @@ CREATE TABLE `tbtransaction` (
 /*Data for the table `tbtransaction` */
 
 insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (1,101,'withdraw',200,'15-07-2018','06:27:16');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (2,101,'deposit',50000,'15-07-2018','06:27:33');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (3,101,'Transfer',3000,'15-07-2018','06:28:01');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (4,102,'Transfer',3000,'15-07-2018','06:28:02');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (5,101,'withdraw',5000,'15-07-2018','06:30:26');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (6,101,'Transfer',5000,'15-07-2018','06:30:50');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (7,102,'Transfer',5000,'15-07-2018','06:30:51');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (8,101,'Transfer',10000,'15-07-2018','06:36:40');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (9,102,'Transfer',10000,'15-07-2018','06:36:41');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (10,105,'withdraw',600,'16-07-2018','15:22:24');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (11,101,'Transfer',6000,'16-07-2018','15:23:19');
-insert into `tbtransaction` (`transid`,`transaccno`,`transtype`,`transamt`,`transdate`,`transtime`) values (12,105,'Transfer',6000,'16-07-2018','15:23:20');
-
 /*Table structure for table `tbuser` */
 
 DROP TABLE IF EXISTS `tbuser`;
@@ -87,6 +75,6 @@ CREATE TABLE `tbuser` (
 /*Data for the table `tbuser` */
 
 
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (102,'sumit','fzr','male',98,'sumit','14-07-2018',20800);
+insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (101,'sps','fzr','male',98,'sumit65pal','14-07-2018',20800);
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
