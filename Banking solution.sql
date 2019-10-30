@@ -3,7 +3,8 @@ SQLyog - Free MySQL GUI v5.17
 Host - 5.0.45-community-nt : Database - dbbank
 *********************************************************************
 Server version : 5.0.45-community-nt
-*/
+*/
+
 
 SET NAMES utf8;
 
@@ -85,13 +86,7 @@ CREATE TABLE `tbuser` (
 
 /*Data for the table `tbuser` */
 
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (101,'sumit','afs','dsaf',123,'asdf','13-07-2018',22301);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (102,'sumit','fzr','male',98,'sumit','14-07-2018',20800);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (103,'sumit','asr','male',12,'saddA','14-07-2018',654);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (104,'sumit','bti','male',64565,'sdf','14-07-2018',5646);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (105,'harnam singh','fzr','m',123456789,'asdffghb','16-07-2018',10400);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (106,'ravneet kaur','ferozepur','female',8437655565,'ravneetkr96@gmail.com','16-07-2018',6000);
-insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (107,'fdg1kh','kh','hkhk',6546,'ag','16-07-2018',64864);
 
+insert into `tbuser` (`accno`,`cname`,`caddress`,`cgender`,`cphno`,`cemail`,`odate`,`cbalance`) values (102,'sumit','fzr','male',98,'sumit','14-07-2018',20800);
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
